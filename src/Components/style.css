@@ -1,0 +1,214 @@
+.login{
+    background-color :cornsilk;
+    height : auto;
+    width : 350px;
+    margin : auto;  
+    text-align: left;
+}
+.login input{
+    width : 300px;
+    height : 25px;
+    margin-top : 3px;
+    margin-left : 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login label{
+    margin : 25px;
+    margin-top : 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login button{
+    width : 308px;
+    margin-left : 25px;
+    margin-top : 7px;
+    padding : 5px;
+    background-color: dodgerblue;
+}
+.login button:hover{
+    background-color :palegreen;
+}
+.login h4{
+    margin-left : 50px;
+    padding : 5px;
+}
+.login h5{
+    background-color: indianred;
+    font-size: 12px;
+    margin : 3px;
+}
+h1{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dash button{
+    width : 100px;
+    background-color: transparent;
+    border : none;
+    color :midnightblue ;
+    font-family: 'Courier New', Courier, monospace;
+    font : 2px bold;
+    font-size: 20px;
+}
+.dash button:hover{
+    background-color :rgb(236, 211, 211);
+    border-radius : 15px; 
+}
+.dash button:focus{
+    background-color :rgb(236, 211, 211);
+    border-radius : 15px; 
+    outline: none;
+}
+.list .fin{
+    background-color: seagreen;
+    width : 400px;
+    height : auto;
+    margin : auto;
+    margin-bottom : 10px; 
+    margin-right : 10px;  
+    margin-left : 10px;;
+}
+.list img{
+    height : 20px;
+    width :20px;
+}
+.list button{
+    margin : 10px;
+    width: 35px;
+    height: 25px;
+    top : 60px;   
+    left : 30px;
+}
+.list .btn{
+    text-align: right;
+    display: flex;
+    width : 100px;
+}
+.list .lt{
+    text-align: left;
+    margin : 8px;
+    width: 250px;
+}
+.list .rt{
+    text-align: right;
+    margin : 8px;
+    width : 120px;
+    height : 20px;
+}
+.list .box{
+    display : flex;
+    flex-direction: row;
+}
+.list .list-box{
+    display : flex;
+    flex-flow :wrap;
+}
+.list .pen{
+    background-color:goldenrod;
+    width : 400px;
+    height : auto;
+    margin :  auto;
+    margin-bottom : 10px; 
+    margin-right : 10px;  
+    margin-left : 10px;
+}
+.para{
+    width : 330px;
+    height : auto;
+    /* margin :  2px; */
+    margin-right: 40px;
+    bottom: 20px;
+    margin-left: 10px;
+    
+}
+.list-box{
+    text-align: left;
+    display : flex;
+}
+.list .p-b{
+    display: flex;
+}
+.show{
+    visibility: show;
+}
+.hide{
+    visibility: hide;
+}
+.list-parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    display: inline-block;
+    text-align: center
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.login textarea{
+    height : 100px;
+    width : 300px;
+    margin-left: 25px;
+}
+.toggle-btn #toggle{
+    margin-top: 20px;
+    background-color: transparent;
+    border : none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    cursor: pointer;
+    color :darkcyan; 
+    margin-bottom :  10px;
+}
+.toggle-btn #toggle:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+    width : 200px;
+}
+.toggle-btn #toggle:focus{
+    outline: none;
+    background-color: lightgray;
+    border : none;
+    border-radius: 10px;
+    width : 200px;
+}
+.feedback-box{
+    text-align: left;
+    margin : 10px;
+    border : 1px black solid;
+    border-style: dashed;
+    width : 400px;
+}
+.feedback-box h3, .feedback-box h5, .feedback-box p{
+    margin : 10px;
+}
+.feedback-parent{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 10%; */
+}
+.feedback-super{
+    display: inline-block;
+}
+.start-para{
+    border: 1px black;
+    border-style: dashed;
+    width : 450px;
+    display: inline-block;
+    margin : 30px;
+    text-align: left;
+}
+.start-para p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px ;
+    margin : 10px;
+    color :maroon
+}
+.start-para a{
+    text-decoration: none;
+    color:chocolate;
+    font-weight: bold;
+}
+
+
+
