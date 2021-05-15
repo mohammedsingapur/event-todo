@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Welcome/>
-      <Router basename="/login">
+      <Router>
         <Switch>
           <Route path="/signup" component={Signup}/>
           <Route exact path="/dashboard" render={()=>

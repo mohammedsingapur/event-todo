@@ -50,11 +50,11 @@ class AddFeedback extends Component{
                             <label>Full Name</label><br/>
                             <input type="text" value={this.state.feedName} onChange={(e)=>{
                                 this.setState({feedName : e.target.value})
-                            }} placeholder="Full Name" /><br/>
+                            }} placeholder="Full Name" required/><br/>
                             <label>Feedback</label><br/>
                             <textarea value={this.state.feedFeedback} onChange={((e)=>{
                                 this.setState({feedFeedback : e.target.value})
-                            })} placeholder="Feedback..." ></textarea><br/>
+                            })} placeholder="Feedback..." required ></textarea><br/>
                             <button  type="submit">Submit</button>
                         </form>
                     </div>
